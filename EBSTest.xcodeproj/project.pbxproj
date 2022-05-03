@@ -7,23 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F124793E2820FE2700D4325C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F124793D2820FE2700D4325C /* AppDelegate.swift */; };
-		F12479402820FE2700D4325C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F124793F2820FE2700D4325C /* SceneDelegate.swift */; };
-		F12479422820FE2700D4325C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12479412820FE2700D4325C /* ViewController.swift */; };
-		F12479452820FE2700D4325C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12479432820FE2700D4325C /* Main.storyboard */; };
-		F12479472820FE2A00D4325C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F12479462820FE2A00D4325C /* Assets.xcassets */; };
-		F124794A2820FE2A00D4325C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12479482820FE2A00D4325C /* LaunchScreen.storyboard */; };
+		274919EC8C2D8CFB4345A637 /* Pods_EBSTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9EF5E1422E9D1A53EBB7FD /* Pods_EBSTest.framework */; };
+		F124796D2820FE5000D4325C /* credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = F12479512820FE4F00D4325C /* credentials.plist */; };
+		F124796E2820FE5000D4325C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12479532820FE4F00D4325C /* ViewController.swift */; };
+		F124796F2820FE5000D4325C /* ProductDetailfaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12479542820FE4F00D4325C /* ProductDetailfaViewController.swift */; };
+		F12479702820FE5000D4325C /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12479552820FE4F00D4325C /* FavoritesViewController.swift */; };
+		F12479712820FE5000D4325C /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12479562820FE4F00D4325C /* DetailsViewController.swift */; };
+		F12479722820FE5000D4325C /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12479572820FE4F00D4325C /* AuthenticationViewController.swift */; };
+		F12479732820FE5000D4325C /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12479592820FE4F00D4325C /* APICaller.swift */; };
+		F12479742820FE5000D4325C /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = F124795A2820FE4F00D4325C /* Products.swift */; };
+		F12479752820FE5000D4325C /* NetworkConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F124795B2820FE4F00D4325C /* NetworkConnection.swift */; };
+		F12479762820FE5000D4325C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F124795D2820FE5000D4325C /* Assets.xcassets */; };
+		F12479772820FE5000D4325C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F124795E2820FE5000D4325C /* AppDelegate.swift */; };
+		F12479782820FE5000D4325C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F124795F2820FE5000D4325C /* SceneDelegate.swift */; };
+		F12479792820FE5000D4325C /* ProductListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12479622820FE5000D4325C /* ProductListCollectionViewCell.swift */; };
+		F124797A2820FE5000D4325C /* ProductListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F12479632820FE5000D4325C /* ProductListCollectionViewCell.xib */; };
+		F124797B2820FE5000D4325C /* DescriptionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12479642820FE5000D4325C /* DescriptionCollectionViewCell.swift */; };
+		F124797C2820FE5000D4325C /* PriceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12479652820FE5000D4325C /* PriceCollectionViewCell.swift */; };
+		F124797D2820FE5000D4325C /* ProductDetailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12479662820FE5000D4325C /* ProductDetailsCollectionViewCell.swift */; };
+		F124797E2820FE5000D4325C /* ProductDetailsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F12479672820FE5000D4325C /* ProductDetailsCollectionViewCell.xib */; };
+		F124797F2820FE5000D4325C /* FavoritesCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12479692820FE5000D4325C /* FavoritesCollectionReusableView.swift */; };
+		F12479802820FE5000D4325C /* ProductListHeaderrCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F124796A2820FE5000D4325C /* ProductListHeaderrCollectionReusableView.swift */; };
+		F12479812820FE5000D4325C /* PriceCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F124796B2820FE5000D4325C /* PriceCollectionViewCell.xib */; };
+		F12479822820FE5000D4325C /* DescriptionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F124796C2820FE5000D4325C /* DescriptionCollectionViewCell.xib */; };
+		F12479852820FE5900D4325C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12479832820FE5900D4325C /* LaunchScreen.storyboard */; };
+		F12479862820FE5900D4325C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12479842820FE5900D4325C /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1982778EC609D0DC118813FF /* Pods-EBSTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EBSTest.debug.xcconfig"; path = "Target Support Files/Pods-EBSTest/Pods-EBSTest.debug.xcconfig"; sourceTree = "<group>"; };
+		DECDC9D27B25C64C9E7D3D17 /* Pods-EBSTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EBSTest.release.xcconfig"; path = "Target Support Files/Pods-EBSTest/Pods-EBSTest.release.xcconfig"; sourceTree = "<group>"; };
+		EF9EF5E1422E9D1A53EBB7FD /* Pods_EBSTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EBSTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F124793A2820FE2700D4325C /* EBSTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EBSTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F124793D2820FE2700D4325C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F124793F2820FE2700D4325C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F12479412820FE2700D4325C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F12479442820FE2700D4325C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F12479462820FE2A00D4325C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F12479492820FE2A00D4325C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F124794B2820FE2A00D4325C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F12479512820FE4F00D4325C /* credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
+		F12479532820FE4F00D4325C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F12479542820FE4F00D4325C /* ProductDetailfaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailfaViewController.swift; sourceTree = "<group>"; };
+		F12479552820FE4F00D4325C /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		F12479562820FE4F00D4325C /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		F12479572820FE4F00D4325C /* AuthenticationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		F12479592820FE4F00D4325C /* APICaller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		F124795A2820FE4F00D4325C /* Products.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		F124795B2820FE4F00D4325C /* NetworkConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConnection.swift; sourceTree = "<group>"; };
+		F124795D2820FE5000D4325C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F124795E2820FE5000D4325C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F124795F2820FE5000D4325C /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F12479622820FE5000D4325C /* ProductListCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListCollectionViewCell.swift; sourceTree = "<group>"; };
+		F12479632820FE5000D4325C /* ProductListCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductListCollectionViewCell.xib; sourceTree = "<group>"; };
+		F12479642820FE5000D4325C /* DescriptionCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionCollectionViewCell.swift; sourceTree = "<group>"; };
+		F12479652820FE5000D4325C /* PriceCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceCollectionViewCell.swift; sourceTree = "<group>"; };
+		F12479662820FE5000D4325C /* ProductDetailsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailsCollectionViewCell.swift; sourceTree = "<group>"; };
+		F12479672820FE5000D4325C /* ProductDetailsCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductDetailsCollectionViewCell.xib; sourceTree = "<group>"; };
+		F12479692820FE5000D4325C /* FavoritesCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesCollectionReusableView.swift; sourceTree = "<group>"; };
+		F124796A2820FE5000D4325C /* ProductListHeaderrCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListHeaderrCollectionReusableView.swift; sourceTree = "<group>"; };
+		F124796B2820FE5000D4325C /* PriceCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PriceCollectionViewCell.xib; sourceTree = "<group>"; };
+		F124796C2820FE5000D4325C /* DescriptionCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DescriptionCollectionViewCell.xib; sourceTree = "<group>"; };
+		F12479832820FE5900D4325C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F12479842820FE5900D4325C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				274919EC8C2D8CFB4345A637 /* Pods_EBSTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +83,8 @@
 			children = (
 				F124793C2820FE2700D4325C /* EBSTest */,
 				F124793B2820FE2700D4325C /* Products */,
+				F6D493F56EB36329949AE5C3 /* Pods */,
+				F37F2C639AF87F44FB3601D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +99,99 @@
 		F124793C2820FE2700D4325C /* EBSTest */ = {
 			isa = PBXGroup;
 			children = (
-				F124793D2820FE2700D4325C /* AppDelegate.swift */,
-				F124793F2820FE2700D4325C /* SceneDelegate.swift */,
-				F12479412820FE2700D4325C /* ViewController.swift */,
-				F12479432820FE2700D4325C /* Main.storyboard */,
-				F12479462820FE2A00D4325C /* Assets.xcassets */,
-				F12479482820FE2A00D4325C /* LaunchScreen.storyboard */,
+				F12479832820FE5900D4325C /* LaunchScreen.storyboard */,
+				F12479842820FE5900D4325C /* Main.storyboard */,
+				F12479522820FE4F00D4325C /* Controllers */,
+				F12479512820FE4F00D4325C /* credentials.plist */,
+				F12479582820FE4F00D4325C /* Model */,
+				F124795C2820FE5000D4325C /* Supporting Files */,
+				F12479602820FE5000D4325C /* Views */,
 				F124794B2820FE2A00D4325C /* Info.plist */,
 			);
 			path = EBSTest;
+			sourceTree = "<group>";
+		};
+		F12479522820FE4F00D4325C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F12479532820FE4F00D4325C /* ViewController.swift */,
+				F12479542820FE4F00D4325C /* ProductDetailfaViewController.swift */,
+				F12479552820FE4F00D4325C /* FavoritesViewController.swift */,
+				F12479562820FE4F00D4325C /* DetailsViewController.swift */,
+				F12479572820FE4F00D4325C /* AuthenticationViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F12479582820FE4F00D4325C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F12479592820FE4F00D4325C /* APICaller.swift */,
+				F124795A2820FE4F00D4325C /* Products.swift */,
+				F124795B2820FE4F00D4325C /* NetworkConnection.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F124795C2820FE5000D4325C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F124795D2820FE5000D4325C /* Assets.xcassets */,
+				F124795E2820FE5000D4325C /* AppDelegate.swift */,
+				F124795F2820FE5000D4325C /* SceneDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F12479602820FE5000D4325C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F12479612820FE5000D4325C /* Cells */,
+				F12479642820FE5000D4325C /* DescriptionCollectionViewCell.swift */,
+				F12479652820FE5000D4325C /* PriceCollectionViewCell.swift */,
+				F12479662820FE5000D4325C /* ProductDetailsCollectionViewCell.swift */,
+				F12479672820FE5000D4325C /* ProductDetailsCollectionViewCell.xib */,
+				F12479682820FE5000D4325C /* Headers */,
+				F124796B2820FE5000D4325C /* PriceCollectionViewCell.xib */,
+				F124796C2820FE5000D4325C /* DescriptionCollectionViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F12479612820FE5000D4325C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F12479622820FE5000D4325C /* ProductListCollectionViewCell.swift */,
+				F12479632820FE5000D4325C /* ProductListCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F12479682820FE5000D4325C /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				F12479692820FE5000D4325C /* FavoritesCollectionReusableView.swift */,
+				F124796A2820FE5000D4325C /* ProductListHeaderrCollectionReusableView.swift */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		F37F2C639AF87F44FB3601D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF9EF5E1422E9D1A53EBB7FD /* Pods_EBSTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6D493F56EB36329949AE5C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1982778EC609D0DC118813FF /* Pods-EBSTest.debug.xcconfig */,
+				DECDC9D27B25C64C9E7D3D17 /* Pods-EBSTest.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +201,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F124794E2820FE2A00D4325C /* Build configuration list for PBXNativeTarget "EBSTest" */;
 			buildPhases = (
+				7AD65C59F8A6205AD311839C /* [CP] Check Pods Manifest.lock */,
 				F12479362820FE2700D4325C /* Sources */,
 				F12479372820FE2700D4325C /* Frameworks */,
 				F12479382820FE2700D4325C /* Resources */,
+				3687DADE5C87586858735D1A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,45 +254,86 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F124794A2820FE2A00D4325C /* LaunchScreen.storyboard in Resources */,
-				F12479472820FE2A00D4325C /* Assets.xcassets in Resources */,
-				F12479452820FE2700D4325C /* Main.storyboard in Resources */,
+				F12479762820FE5000D4325C /* Assets.xcassets in Resources */,
+				F124796D2820FE5000D4325C /* credentials.plist in Resources */,
+				F124797A2820FE5000D4325C /* ProductListCollectionViewCell.xib in Resources */,
+				F12479862820FE5900D4325C /* Main.storyboard in Resources */,
+				F12479822820FE5000D4325C /* DescriptionCollectionViewCell.xib in Resources */,
+				F12479852820FE5900D4325C /* LaunchScreen.storyboard in Resources */,
+				F124797E2820FE5000D4325C /* ProductDetailsCollectionViewCell.xib in Resources */,
+				F12479812820FE5000D4325C /* PriceCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3687DADE5C87586858735D1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EBSTest/Pods-EBSTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EBSTest/Pods-EBSTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EBSTest/Pods-EBSTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AD65C59F8A6205AD311839C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EBSTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F12479362820FE2700D4325C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F12479422820FE2700D4325C /* ViewController.swift in Sources */,
-				F124793E2820FE2700D4325C /* AppDelegate.swift in Sources */,
-				F12479402820FE2700D4325C /* SceneDelegate.swift in Sources */,
+				F124796F2820FE5000D4325C /* ProductDetailfaViewController.swift in Sources */,
+				F124797B2820FE5000D4325C /* DescriptionCollectionViewCell.swift in Sources */,
+				F12479792820FE5000D4325C /* ProductListCollectionViewCell.swift in Sources */,
+				F124797F2820FE5000D4325C /* FavoritesCollectionReusableView.swift in Sources */,
+				F12479732820FE5000D4325C /* APICaller.swift in Sources */,
+				F12479702820FE5000D4325C /* FavoritesViewController.swift in Sources */,
+				F12479772820FE5000D4325C /* AppDelegate.swift in Sources */,
+				F12479742820FE5000D4325C /* Products.swift in Sources */,
+				F12479782820FE5000D4325C /* SceneDelegate.swift in Sources */,
+				F12479752820FE5000D4325C /* NetworkConnection.swift in Sources */,
+				F124797D2820FE5000D4325C /* ProductDetailsCollectionViewCell.swift in Sources */,
+				F12479802820FE5000D4325C /* ProductListHeaderrCollectionReusableView.swift in Sources */,
+				F12479722820FE5000D4325C /* AuthenticationViewController.swift in Sources */,
+				F124796E2820FE5000D4325C /* ViewController.swift in Sources */,
+				F12479712820FE5000D4325C /* DetailsViewController.swift in Sources */,
+				F124797C2820FE5000D4325C /* PriceCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		F12479432820FE2700D4325C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F12479442820FE2700D4325C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F12479482820FE2A00D4325C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F12479492820FE2A00D4325C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F124794C2820FE2A00D4325C /* Debug */ = {
@@ -282,6 +452,7 @@
 		};
 		F124794F2820FE2A00D4325C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1982778EC609D0DC118813FF /* Pods-EBSTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +481,7 @@
 		};
 		F12479502820FE2A00D4325C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DECDC9D27B25C64C9E7D3D17 /* Pods-EBSTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
